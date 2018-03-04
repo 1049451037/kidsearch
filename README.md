@@ -2,7 +2,7 @@
 A search engine completed by [Qingsong Lv](https://github.com/1049451037), [Shulin Cao](https://github.com/ShulinCao) and [Yifan Wang](https://github.com/wangyifan0202). Our tutors are [Qian Yin](https://github.com/bnuyinqian) and Xin Zheng.
 
 # abstract
-When we did kidsearch project, we were sophomores. As time going by, we realize that there are more we can do to make it more valuable. So we decide to create this github repository. This project aims to tidy up codes of kidsearch which were written by us from 2016 to 2017 and make part of them opened. We will try our best to make this project a unified system and provide as many APIs as we can.
+When we did kidsearch project, we were sophomores. As time going by, we realize that there are more we can do to make it more valuable. So we decide to create this github repository. This project aims to tidy up codes of kidsearch which were written by us from 2016 to 2017 and make part of them opened. We will try our best to make this project a unified system and provide as many APIs as we can. We think the best explanation of APIs should be comments of codes, so there will be no tutorial of this project but only detailed comments of codes. If you want to get some literal thoughts, related work may help.
 
 # related work
 * [一种基于Python爬虫和Lucene检索的垂直搜索引擎的实现方法介绍](http://www.cnblogs.com/itlqs/p/6797789.html)
