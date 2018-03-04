@@ -1,8 +1,12 @@
 # kidsearch
 A search engine completed by [Qingsong Lv](https://github.com/1049451037), [Shulin Cao](https://github.com/ShulinCao) and [Yifan Wang](https://github.com/wangyifan0202). Our tutors are [Qian Yin](https://github.com/bnuyinqian) and Xin Zheng.
 
-# abstract
-When we did kidsearch project, we were sophomores. As time going by, we realize that there are more we can do to make it more valuable. So we decide to create this github repository. This project aims to tidy up codes of kidsearch which were written by us from 2016 to 2017 and make part of them opened. We will try our best to make this project a unified system and provide as many APIs as we can. We think the best explanation of APIs should be comments of codes, so there will be no tutorial of this project but only detailed comments of codes. If you want to get some literal thoughts, related work may help. The initial version of our project is based on Java(Lucene), Python(Crawler), PHP(frontend) and Socket(Communication). Since Python is so popular at present, we choose to use PyLucene to replace Lucene and Django to replace PHP, which can simplify part of socket communication. 
+# introduction
+When we did kidsearch project, we were sophomores. As time going by, we realize that there are more we can do to make it more valuable. So we decide to create this github repository. This project aims to tidy up codes of kidsearch which were written by us from 2016 to 2017 and make part of them opened. We will try our best to make this project a unified system and provide as many APIs as we can.
+
+We think the best explanation of APIs should be comments of codes, so there will be no tutorial of this project but only detailed comments of codes. If you want to get some literal thoughts, related work may help. 
+
+The initial version of our project is based on Java(Lucene), Python(Crawler), PHP(frontend) and Socket(Communication). Since Python is so popular at present, we choose to use PyLucene to replace Lucene and Django to replace PHP, which can simplify part of socket communications. 
 
 # environment
 This project is aimed to help do some lightweight search engine tasks. So the running environment is mainly on Windows.
