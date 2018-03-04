@@ -11,6 +11,9 @@ The initial version of our project is based on Java(Lucene), Python(Crawler), PH
 # environment
 This project is aimed to help do some lightweight search engine tasks. So the running environment is mainly on Windows.
 
+# requirement
+Python3, Django, requests, PyLucene, MySQL.
+
 # related work
 * [一种基于Python爬虫和Lucene检索的垂直搜索引擎的实现方法介绍 (blog)](http://www.cnblogs.com/itlqs/p/6797789.html)
 * [儿童搜索引擎的现状与分析 (paper)](http://www.cqvip.com/QK/71889x/201703/epub1000000740663.html)
