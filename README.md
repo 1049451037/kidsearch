@@ -6,7 +6,7 @@ When we did kidsearch project, we were sophomores. As time going by, we realize 
 
 We think the best explanation of APIs should be comments of codes, so there will be no tutorial of this project but only detailed comments of codes. If you want to get some literal thoughts, related work may help. 
 
-The initial version of our project is based on Java(Lucene), Python(Crawler), PHP(frontend) and Socket(Communication). Since Python is so popular at present, we choose to use PyLucene to replace Lucene and Django to replace PHP, which can simplify part of socket communications. 
+The initial version of our project is based on Java(Lucene), Python(Crawler), PHP(frontend) and Socket(Communication). Since Python is so popular at present, we choose to use PyLucene to replace Lucene and Django to replace PHP, which can simplify part of socket communications. However, the socket communication part of initial version will also be opened since we think it is very useful because we added multi-threading in it.
 
 Actually, our project is mainly for simplified Chinese search engine. The reason for using English in documents and comments is that we think this project may also helpful to some other languages.
 
