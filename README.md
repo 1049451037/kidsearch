@@ -19,7 +19,7 @@ This project is aimed to help do some lightweight search engine tasks. So the ru
 Some other python packages are also needed: requests, ...
 
 # goal
-Make a wonderful convenient Python package to do tasks about search engine.
+Make a wonderful convenient Python package to do tasks about search engine. Here is an ideal example:
 ```python
 import kidsearch
 webpages = kidsearch.crawler('http://www.61tom.com', max_page=1000, max_depth=10)
