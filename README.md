@@ -14,7 +14,8 @@ Actually, our project is mainly for simplified Chinese search engine. The reason
 This project is aimed to help do some lightweight search engine tasks. So the running environment is mainly on Windows.
 
 # requirement
-[Python3.x(x>=5)](https://www.python.org/downloads/release/python-351/), Django(maybe django-rest is also needed?), [PyLucene](http://lucene.apache.org/pylucene/), MySQL.
+[Python3.x (x>=5)](https://www.python.org/downloads/release/python-351/), Django(maybe django-rest is also needed?), [PyLucene](http://lucene.apache.org/pylucene/), MySQL.
+
 Some other python packages are also needed: requests, ...
 
 # related work
