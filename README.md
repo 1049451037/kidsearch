@@ -18,6 +18,16 @@ This project is aimed to help do some lightweight search engine tasks. So the ru
 
 Some other python packages are also needed: requests, ...
 
+# goal
+Make a wonderful convenient Python package to do tasks about search engine.
+```python
+import kidsearch
+webpages = kidsearch.crawler('http://www.61tom.com', max_page=1000, max_depth=10)
+indexes = kidsearch.make_index(webpages)
+results = indexes.search(key_words)
+print(kidsearch.show(results))
+```
+
 # related work
 * [一种基于Python爬虫和Lucene检索的垂直搜索引擎的实现方法介绍 (blog)](http://www.cnblogs.com/itlqs/p/6797789.html)
 * [儿童搜索引擎的现状与分析 (paper)](http://www.cqvip.com/QK/71889x/201703/epub1000000740663.html)
