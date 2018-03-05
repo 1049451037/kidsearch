@@ -8,11 +8,14 @@ We think the best explanation of APIs should be comments of codes, so there will
 
 The initial version of our project is based on Java(Lucene), Python(Crawler), PHP(frontend) and Socket(Communication). Since Python is so popular at present, we choose to use PyLucene to replace Lucene and Django to replace PHP, which can simplify part of socket communications. 
 
+Actually, our project is mainly for simplified Chinese search engine. The reason for using English in documents and comments is that we think this project may also helpful to some other languages.
+
 # environment
 This project is aimed to help do some lightweight search engine tasks. So the running environment is mainly on Windows.
 
 # requirement
-Python3, Django, requests, PyLucene, MySQL.
+[Python3.x(x>=5)](https://www.python.org/downloads/release/python-351/), Django(maybe django-rest is also needed?), [PyLucene](http://lucene.apache.org/pylucene/), MySQL.
+Some other python packages are also needed: requests, ...
 
 # related work
 * [一种基于Python爬虫和Lucene检索的垂直搜索引擎的实现方法介绍 (blog)](http://www.cnblogs.com/itlqs/p/6797789.html)
