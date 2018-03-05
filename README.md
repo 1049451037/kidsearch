@@ -4,7 +4,7 @@ A search engine completed by [Qingsong Lv](https://github.com/1049451037), [Shul
 # introduction
 When we did kidsearch project, we were sophomores. As time going by, we realize that there are more we can do to make it more valuable. So we decide to create this github repository. This project aims to tidy up codes of kidsearch which were written by us from 2016 to 2017 and make part of them opened. We will try our best to make this project a unified system and provide as many APIs as we can.
 
-We think the best explanation of APIs should be comments of codes, so there will be no tutorial of this project but only detailed comments of codes. If you want to get some literal thoughts, related work may help. 
+We think the best explanation of APIs should be comments of codes, but there will also be some tutorials available soon. If you want to get some literal thoughts now, related work may help. 
 
 The initial version of our project is based on Java(Lucene), Python(Crawler), PHP(frontend) and Socket(Communication). Since Python is so popular at present, we choose to use PyLucene to replace Lucene and Django to replace PHP, which can simplify part of socket communications. However, the socket communication part of initial version will also be opened since we think it is very useful because we added multi-threading in it.
 
