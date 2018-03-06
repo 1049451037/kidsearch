@@ -9,7 +9,7 @@ We will try our best to make this project a unified system and provide as many A
 We think the best explanation of APIs should be comments of codes, but there will also be some tutorials available soon. 
 If you want to get some literal thoughts now, related work may help. 
 
-The initial version of our project is based on Java(Lucene), Python(Crawler), PHP(frontend) and Socket(Communication). The most useful part is because we added multi-threading in it. 
+The initial version of our project is based on Java(Lucene), Python(Crawler), PHP(frontend) and Socket(Communication). The most useful part we think is socket because we added multi-threading in it. 
 Since Python is so popular at present, we also use PyLucene to replace Lucene and Django to replace PHP, which can simplify part of socket communications to build another Python version of our project.
 Both of the two versions will be open-sourced.
 
