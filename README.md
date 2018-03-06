@@ -1,5 +1,7 @@
 # kidsearch
 A search engine completed by [Qingsong Lv](https://github.com/1049451037), [Shulin Cao](https://github.com/ShulinCao) and [Yifan Wang](https://github.com/wangyifan0202). Our tutors are [Qian Yin](https://github.com/bnuyinqian) and Xin Zheng.
+This repository is based on a national undergraduate scientific research and innovation project: simplified Chinese search engine for kids.
+Sorry this project is not available now, but will be available soon.(maybe in one year)
 
 # introduction
 When we did kidsearch project, we were sophomores. As time going by, we realize that there are more we can do to make it more valuable. 
