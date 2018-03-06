@@ -2,11 +2,16 @@
 A search engine completed by [Qingsong Lv](https://github.com/1049451037), [Shulin Cao](https://github.com/ShulinCao) and [Yifan Wang](https://github.com/wangyifan0202). Our tutors are [Qian Yin](https://github.com/bnuyinqian) and Xin Zheng.
 
 # introduction
-When we did kidsearch project, we were sophomores. As time going by, we realize that there are more we can do to make it more valuable. So we decide to create this github repository. This project aims to tidy up codes of kidsearch which were written by us from 2016 to 2017 and make part of them opened. We will try our best to make this project a unified system and provide as many APIs as we can.
+When we did kidsearch project, we were sophomores. As time going by, we realize that there are more we can do to make it more valuable. 
+So we decide to create this github repository. This project aims to tidy up codes of kidsearch which were written by us from 2016 to 2017 and make part of them opened. 
+We will try our best to make this project a unified system and provide as many APIs as we can.
 
-We think the best explanation of APIs should be comments of codes, but there will also be some tutorials available soon. If you want to get some literal thoughts now, related work may help. 
+We think the best explanation of APIs should be comments of codes, but there will also be some tutorials available soon. 
+If you want to get some literal thoughts now, related work may help. 
 
-The initial version of our project is based on Java(Lucene), Python(Crawler), PHP(frontend) and Socket(Communication). Since Python is so popular at present, we choose to use PyLucene to replace Lucene and Django to replace PHP, which can simplify part of socket communications. However, the socket communication part of initial version will also be opened since we think it is very useful because we added multi-threading in it.
+The initial version of our project is based on Java(Lucene), Python(Crawler), PHP(frontend) and Socket(Communication). The most useful part is because we added multi-threading in it. 
+Since Python is so popular at present, we also use PyLucene to replace Lucene and Django to replace PHP, which can simplify part of socket communications to build another Python version of our project.
+Both of the two versions will be open-sourced.
 
 Actually, our project is mainly for simplified Chinese search engine. The reason for using English in documents and comments is that we think this project may also helpful to some other languages.
 
@@ -21,11 +26,11 @@ Some other python packages are also needed: requests, ...
 # goal
 Make a wonderful convenient Python package to do tasks about search engine. Here is an ideal example:
 ```python
-import kidsearch
-webpages = kidsearch.crawler('http://www.61tom.com', max_page=1000, max_depth=10)
-indexes = kidsearch.make_index(webpages)
+import kidsearch as ks
+webpages = ks.crawler(['http://www.61tom.com', 'http://www.61baobao.com/'], max_page=1000, max_depth=10)
+indexes = ks.make_index(webpages)
 results = indexes.search(key_words)
-print(kidsearch.show(results))
+print(ks.show(results))
 ```
 
 # related work
