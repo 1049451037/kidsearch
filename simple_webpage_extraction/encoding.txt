@@ -1,0 +1,5 @@
+gb18030
+utf-8
+# the first line is the webpage encoding
+# the second line is the output file encoding
+# you can change them manually
